@@ -1,0 +1,45 @@
+.listth_mystyle thead th{font-weight:bold}
+.loginmaindiv{width:500px;
+			  background-color:#e9e8e8;
+			  position:absolute;
+			  left:0;
+			  right:0;
+			  margin:auto;
+			  top:50px;}
+			  			  
+#updateimage1{display:none}		
+#updatefront_btn{cursor:pointer;}
+
+.input_wrap{position:relative;}
+
+.artist_list{position:absolute;
+			 z-index:1;
+			 background-color:#000;
+			 width:100%;}
+			 
+#list_search{padding-left:0; list-style:none; margin-bottom:0;}			 
+#list_search li{display:flex; padding:10px; border-bottom:1px solid #eee;}
+#list_search li div + div{flex:1; color:#fff;}
+#list_search li div + div h4{color:#fff; margin-bottom:0; font-size:19px;}
+#list_search li div + div p{margin-bottom:0;}
+#list_search img{margin-right:10px}
+
+#bindList li{display:inline-block; padding:8px 12px; background:#eee; color:#000; border-radius:6px; margin-right:10px;}
+#bindList li h4{color:#000; margin-bottom:0; flex:1}
+#bindList div{display:flex;}
+#bindList div span{width:20px; margin-left:8px; height:20px; text-align:center;}
+.menuiamge{width:40px; height:40px;}
+.menuiamge img{width:100%; height:100%; border-radius:50%}
+
+
+/* .table-responsive{height:150px; overflow:auto} */
+/* .desc-table tr {word-wrap: break-word;border:1px solid black} */
+/* .desc-table td, */
+/* .desc-table th{border:1px solid black;} */
+/* .desc-table{} */
+.table-responsive{height:450px;}
+.desc-table{}
+.desc-table tr{ border:1px solid black}
+.desc-table td,
+.desc-table th{border:1px solid black}
+.hideartist{display:none}
